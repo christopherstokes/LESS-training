@@ -3,7 +3,7 @@
 
 # LESS Training 2/23/16
 
-#HSLIDE
+#VSLIDE
 
 ### Reflecting Markup via nesting
         html:
