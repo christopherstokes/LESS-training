@@ -3,14 +3,15 @@
 #HSLIDE
 
 ### Reflecting Markup via nesting
-        html:
+html:
+
         <div id="container-box">
           <span class="inside-box">
             <strong>This is a strong sentence.</strong>
           </span>
         </div>
+less:
 
-        less:
         #container-box {
           .inside-box {
             > strong { color: @blue; }
