@@ -1,6 +1,3 @@
-
-#HSLIDE
-
 # LESS Training 2/23/16
 
 #VSLIDE
