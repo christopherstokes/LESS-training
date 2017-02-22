@@ -37,10 +37,12 @@ less:
 #HSLIDE
 
 ### Variables
-  * Color Variables
+colors:
+
         @black: #000;
         @white: #fff;
-  * Fonts
+fonts:
+
         @import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
         @sans: 'Roboto';
         @serif: 'Slabo';
