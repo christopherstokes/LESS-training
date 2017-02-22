@@ -5,7 +5,7 @@
 
 #HSLIDE
 
-# Reflecting Markup via nesting
+### Reflecting Markup via nesting
         html:
         <div id="container-box">
           <span class="inside-box">
@@ -30,15 +30,15 @@
 
 #HSLIDE
 
-# Media Queries
+### Media Queries
 
 #HSLIDE
 
-# Imports
+### Imports
 
 #HSLIDE
 
-# Variables
+### Variables
   * Color Variables
         @black: #000;
         @white: #fff;
@@ -47,7 +47,7 @@
         @sans: 'Roboto';
         @serif: 'Slabo';
 #HSLIDE
-# Mixins
+### Mixins
   * Color change
   * Font Cycle
   * Animation
@@ -57,7 +57,7 @@
 
 #HSLIDE
 
-# Theme Folder Structure
+### Theme Folder Structure
         |-less/
         |---themes/
         |-----dealershipname/
@@ -81,11 +81,11 @@
 
 #HSLIDE
 
-# DS-specific Mixins
+### DS-specific Mixins
 
 #HSLIDE
 
-# Mockup Theme Changes
+### Mockup Theme Changes
 
 #HSLIDE
 
