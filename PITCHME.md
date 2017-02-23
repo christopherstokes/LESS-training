@@ -22,7 +22,7 @@ less:
         }
 
 <div class="example-box">
-  <div id="container-box">
+  <div id="container-box-1">
     <span class="inside-box">
       <strong>This is a strong sentence.</strong>
     </span>
