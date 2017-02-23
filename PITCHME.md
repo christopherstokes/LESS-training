@@ -34,13 +34,42 @@ result:
 
 ### Media Queries
 
+#VSLIDE
+        
+        .container {
+                .inner-container {
+                        .inner-box { 
+                                font-size: 12px 
+                                @media(min-width: @sm-min) {
+                                        font-size: 16px;
+                                }
+                        }
+                        
+                        
+                }
+        }
+        
+#VSLIDE
+        
+        .container {
+                .inner-container {
+                        .inner-box { 
+                                font-size: 12px 
+                        }                        
+                }
+                @media(min-width: @sm-min) {
+                        .inner-container {
+                                .inner-box {
+                                        font-size: 16px;        
+                                }
+                        }
+                        
+                }
+        }
+
 #HSLIDE
 
-### Imports
-
-#HSLIDE
-
-### Variables
+### Variables/Imports
 colors:
 
         @black: #000;
@@ -52,9 +81,8 @@ fonts:
         @serif: 'Slabo';
 #HSLIDE
 ### Mixins
-  * Color change
-  * Font Cycle
-  * Animation
+* Color change
+* Animation
 #HSLIDE
 
 # DealerSpike Specific Functionality
@@ -89,9 +117,4 @@ fonts:
 
 #HSLIDE
 
-### Mockup Theme Changes
-
-#HSLIDE
-
-### Materials
-- FED breakdown sheet with sizes and whatnot
+### END
