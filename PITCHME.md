@@ -20,6 +20,7 @@ less:
             > strong { color: @blue; }
           }
         }
+result:
 
 <div class="example-box">
   <div id="container-box-1">
