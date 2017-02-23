@@ -35,36 +35,33 @@ result:
 ### Media Queries
 
 #VSLIDE
-        
-        .container {
-                .inner-container {
-                        .inner-box { 
-                                font-size: 12px 
-                                @media(min-width: @sm-min) {
-                                        font-size: 16px;
-                                }
-                        }
-                        
-                        
-                }
+
+    .container {
+      .inner-container {
+        .inner-box {
+          font-size: 12px
+          @media(min-width: @sm-min) {
+            font-size: 16px;
+          }
         }
-        
+      }
+    }
+
 #VSLIDE
-        
+
         .container {
-                .inner-container {
-                        .inner-box { 
-                                font-size: 12px 
-                        }                        
-                }
-                @media(min-width: @sm-min) {
-                        .inner-container {
-                                .inner-box {
-                                        font-size: 16px;        
-                                }
-                        }
-                        
-                }
+          .inner-container {
+            .inner-box {
+              font-size: 12px
+            }                        
+          }
+          @media(min-width: @sm-min) {
+            .inner-container {
+              .inner-box {
+                font-size: 16px;        
+              }
+            }
+          }
         }
 
 #HSLIDE
