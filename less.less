@@ -1,8 +1,14 @@
 @grey: #cccccc;
+@blue: #0000FF;
 
 .example-box {
   padding: 25px;
-  background-color: @grey;
-  border: 2px;
+  border: 2px solid @grey;
   width: 100%;
+}
+
+#container-box-1 {
+  .inside-box {
+    > strong { color: @blue; }
+  }
 }

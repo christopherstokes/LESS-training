@@ -1,2 +1,8 @@
-.example-box{padding:25px;background-color:#ccc;border:2px;width:100%}
-/* This beautiful CSS-File has been crafted with LESS (lesscss.org) and compiled by simpLESS (wearekiss.com/simpless) */
+.example-box {
+  padding: 25px;
+  border: 2px solid #cccccc;
+  width: 100%;
+}
+#container-box-1 .inside-box > strong {
+  color: #0000FF;
+}

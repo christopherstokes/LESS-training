@@ -8,14 +8,14 @@
 
 html:
 
-        <div id="container-box">
+        <div id="container-box-1">
           <span class="inside-box">
             <strong>This is a strong sentence.</strong>
           </span>
         </div>
 less:
 
-        #container-box {
+        #container-box-1 {
           .inside-box {
             > strong { color: @blue; }
           }
